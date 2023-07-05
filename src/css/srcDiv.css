@@ -5,3 +5,38 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.info{
+    width: 90%;
+    height: 400px;
+    background-color: #ccc;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.exp{
+    width: 90%;
+    height: 300px;
+    background-color: #ccc;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.thm{
+    width: 90%;
+    height: 600px;
+    background-color: #ccc;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
