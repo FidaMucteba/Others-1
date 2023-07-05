@@ -1,0 +1,56 @@
+nav {
+    background-color: rgb(2, 2, 129);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-top: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 25px;
+}
+
+.logo {
+color: wheat;
+font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    color: yellow;
+    display: block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+nav ul li:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
