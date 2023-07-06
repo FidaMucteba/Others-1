@@ -1,9 +1,17 @@
 .hero{
-    height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.herob{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .info{
     width: 90%;
@@ -16,9 +24,9 @@
     align-items: center;
     border-radius: 10px;
 }
-.exp{
+.expa{
     width: 90%;
-    height: 300px;
+    /* height: 300px; */
     background-color: #ccc;
     margin: 10px auto;
     display: flex;
@@ -27,6 +35,20 @@
     align-items: center;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 50px;
+}
+.expb{
+    width: 90%;
+    
+    background-color: #ccc;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .thm{
     width: 90%;
@@ -39,4 +61,5 @@
     align-items: center;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 100px;
 }
